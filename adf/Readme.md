@@ -17,7 +17,10 @@ This folder contains our ADF pipelines and related configuration for dynamically
   - `PL_Ingest_AdventureWorks.json` – Main pipeline with:
     1. **Lookup** activity to read `DS_JSON_Config.json`
     2. **ForEach** activity to iterate over each file entry
-    3. **Copy Data** activity to fetch from GitHub and land into Bronze container, using dynamic parameters  
+    3. **Copy Data** activity to fetch from GitHub and land into Bronze container, using dynamic parameters
+   
+       ![Alt text](https://github.com/pavankakarrot/end-to-end-azure-data-pipeline/blob/main/Screenshots/Data_pipeline_1.png)
+       ![Alt text](https://github.com/pavankakarrot/end-to-end-azure-data-pipeline/blob/main/Screenshots/Data_pipeline_2.png)
 
 - **Parameters**
   - `param_pipeline.json` – Defines pipeline parameters (e.g., `fileName`, `folderPath`)  
