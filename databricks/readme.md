@@ -52,3 +52,7 @@ This folder contains our Databricks notebooks and supporting configuration for t
   .parquet("/mnt/silver/customers")
 
 
+![Alt text](https://github.com/pavankakarrot/end-to-end-azure-data-pipeline/blob/main/Screenshots/Transformations.png)
+![Alt text](https://github.com/pavankakarrot/end-to-end-azure-data-pipeline/blob/main/Screenshots/Visualisation_1.png)
+![Alt text](https://github.com/pavankakarrot/end-to-end-azure-data-pipeline/blob/main/Screenshots/Visulaisation_2.png)
+
